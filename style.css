@@ -1,0 +1,23 @@
+:root{
+    --titleFont:rgb(70,89,120); /*Title font colors*/
+}
+
+#banner{
+    background-image: url(./images/banner.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bannerImg{
+    height:140px;
+    width:150px;
+    margin-top: 25px;
+}
+
+#bannerText{
+    margin-top: 125px;
+    margin-right: 50px;
+    font-size:35px;
+}
