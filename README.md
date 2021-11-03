@@ -1,2 +1,2 @@
-# Tom-s-Portfolio
+# Lazore-Portfolio
 Updated portfolio page
