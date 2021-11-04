@@ -111,10 +111,7 @@ a{
 @media only screen and (max-width: 768px) {
     .contacts {
         flex-direction: column;
-        width:50%;
-        margin:auto;
-        border:3px solid white;
-        padding: 30px;
+        padding: 20px;
     }
     #banner{
         justify-content: space-between;
