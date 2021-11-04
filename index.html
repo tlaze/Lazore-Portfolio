@@ -8,20 +8,20 @@
         <title>Tom's Portfolio</title>
     </head>
     <header>
-        <div class="row bg-dark">
+        <div class="row">
             <div class="col-md-12">
-                <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <nav class="navbar navbar-expand-md">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Tom Lazore</a>
+                        <h1 class="bg-white" id="nameHeader">Tom Lazore</h1>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon bg-dark"></span>
+                            <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
-                                <a class="nav-link mx-4" href="#">About Me</a>
-                                <a class="nav-link mx-4" href="#">Projects</a>
-                                <a class="nav-link mx-4" href="#">Contact Me</a>
-                                <a class="nav-link mx-4" href="#">Resume</a>
+                                <a class="nav-link mx-4 text-white" href="#aboutMe">About Me</a>
+                                <a class="nav-link mx-4 text-white" href="#projects">Projects</a>
+                                <a class="nav-link mx-4 text-white" href="#contactMe">Contact Me</a>
+                                <a class="nav-link mx-4 text-white" href="./pdf/Thomas_Lazore_Resume.pdf" download="Lazore_Thomas_Resume" target="_blank">Resume</a>
                             </div>
                         </div>
                     </div>
@@ -36,17 +36,17 @@
             <div class="row">
                 <div class="col-md-12" id="banner">
                     <img src="./images/avatar.jpeg" alt="Avatar" id="bannerImg">
-                    <h2 class="bg-dark text-white" id="bannerText">Hello, I'm Tom</h2>
+                    <h2 class="text-white" id="bannerText">Hello, I'm Tom</h2>
                 </div>
             </div>
 
 
             <div class="row">
-                <div class="col-md-3">
-                    <h1 class="bg-dark text-light">About Me</h1>
+                <div class="col-md-3" id="aboutMe">
+                    <h1 class="text-white text-center mt-4">About Me</h1>
                 </div>
-                <div class="col-md-9">
-                    <p>Born and raised in Upstate New York. I played a variety of sports from youth and into college. Working with teams developed my mindset that we are only as strong as our weakest link. Supporting each member
+                <div class="col-md-9 text-white my-4">
+                    <p>Born and raised in Upstate New York. I played a variety of sports from youth and into college. Working with teams developed my mindset that supporting each member
                         as well as putting in the effort to excel individualy leads to success. During college I became an EMT. I worked in that field for nine years. During that time I went back to school to obtain my Paramedic Certification.
                         I will be forever grateful for the skills learned and life experience gained during that time of my life. Now I am looking to switch career paths to become a software developer. As I gain experience in this field, I intend to update these projects to become more efficient
                         and add new ones with the end goal of working towards something that makes a difference in people's lives. Thank you for taking the time to read this! I hope you enjoy my works.
@@ -54,43 +54,44 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
-                    <h1>Projects</h1>
+                <div class="col-md-3" id="projects">
+                    <h1 class="backgroundText text-light text-center">Projects</h1>
                 </div>
                 <div class="col-md-9">
                     <div class="row">
-                        <div class="col-md-12 border border-dark">
-                            <a href="https://github.com/willgresham34/NeverAlone" target="_blank">
-                                <div>
-                                    <h4>NeverAlone</h4>
-                                </div>
-                            </a>
-                        </div>
+                        <a href="https://never-alone-platform.herokuapp.com/" target="_blank" class="project col-md-12 mb-3" id="project1">
+                            <h4 class="projectTitle text-center">NeverAlone</h4>
+                        </a>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 border border-dark">
-                            Project 2
-                        </div>
-                        <div class="col-md-6 border border-dark">
-                            Project 3
-                        </div>
+                        <a href="https://cryptic-thicket-49114.herokuapp.com/" class="project col-md-6 mb-1" id="project2" target="_blank">
+                            <h4 class="projectTitle text-center">Tech Blog</h4>
+                        </a>   
+                        <a href="https://tlaze.github.io/weather-dashboard/" class="project col-md-6 mb-1" id="project3" target="_blank">
+                            <h4 class="projectTitle text-center">Weather Dashboard</h4>
+                        </a>  
                     </div>
-                    <div class="row">
-                        <div class="col-md-6 border border-dark">
-                            Project 4
-                        </div>
-                        <div class="col-md-6 border border-dark">
-                            Project 5
-                        </div>
+                    <div class="row mb-3">
+                        <a class="project col-md-6" id="project4" a href="https://caitlinw29.github.io/pokeBattle/" target="_blank">
+                            <h4 class="projectTitle text-center">PokeBattle</h4>
+                        </a>
+                        <a href="https://tlaze.github.io/password-generator/" target="_blank" class="project col-md-6" id="project5">
+                            <h4 class="projectTitle text-center">Password Generator</h4>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <h1>Contact Me</h1>
+                    <h1 class="text-white text-center">Contact Me</h1>
                 </div>
-                <div class="col-md-9">
-                    Contacts
+                <div class="col-md-9" id="contactMe">
+                    <div class="contacts">
+                        <span class="nav-link text-white" href="#">315|778|6632</span>x
+                        <span class="nav-link text-white" href="#">tomlazore@gmail.com</span>
+                        <a class="nav-link text-white" href="https://linkedin.com/in/tlaze" target="_blank">LinkedIn</a>
+                        <a class="nav-link text-white" href="https://github.com/tlaze" target="_blank">GitHub</a>
+                    </div>
                 </div>
             </div>
         </div>
