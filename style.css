@@ -56,7 +56,7 @@ a{
 }
 
 #project1{
-    background-image:url(/images/neveralone.png);
+    background-image:url(/images/techblog.png);
     object-fit:cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -64,7 +64,7 @@ a{
 }
 
 #project2{
-    background-image:url(/images/techblog.png);
+    background-image:url(/images/neveralone.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 350px;
