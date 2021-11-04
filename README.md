@@ -29,29 +29,11 @@
 
   Displays a bio about me, recent works completed, a resume, and links to contact me
   
-  ## Installation
 
-  To run this application properly, you need to install:
-  
-  n/a
-  
-
-  ## Usage
-  
-  View link below
-  
-  
   ## License
   
   This Project is licensed by [MIT](https://choosealicense.com/licenses/mit/).
   
-  ## Contributors
-
-  Tom Lazore
-  
-  ## Tests
-  
-  To test this application, enter n/a in the command line
 
   ## ScreenShot
 
