@@ -102,8 +102,21 @@ a{
     opacity:.6;
 }
 
+.contacts a:hover{
+    transition:.2s;
+    opacity:.6;
+}
+
+
 @media only screen and (max-width: 768px) {
     .contacts {
-      justify-content: center;
+        flex-direction: column;
+        width:50%;
+        margin:auto;
+        border:3px solid white;
+        padding: 30px;
+    }
+    #banner{
+        justify-content: space-between;
     }
   }
