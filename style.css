@@ -20,7 +20,7 @@ a{
 
 
 #banner{
-    background-image: url(https://github.com/tlaze/Lazore-Portfolio/blob/main/images/banner.jpg?raw=true);
+    background-image: url(https://tlaze.github.io/images/banner.jpg);
     background-size:cover;
     background-repeat:no-repeat;
     display: flex;
@@ -56,7 +56,7 @@ a{
 }
 
 #project1{
-    background-image: url(https://cryptic-thicket-49114.herokuapp.com/);
+    background-image: url(https://tlaze.github.io/images/techblog.png);
     object-fit:cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -64,28 +64,28 @@ a{
 }
 
 #project2{
-    background-image: url(https://never-alone-platform.herokuapp.com/);
+    background-image: url(https://tlaze.github.io/images/neveralone.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 350px;
 }
 
 #project3{
-    background-image: url(https://tlaze.github.io/weather-dashboard/);
+    background-image: url(weatherdashboard.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 350px;
 }
 
 #project4{
-    background-image: url(https://caitlinw29.github.io/pokeBattle/);
+    background-image: url(https://tlaze.github.io/images/pokebattle.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 350px;
 }
 
 #project5{
-    background-image: url(https://tlaze.github.io/password-generator/);
+    background-image: url(passwordgenerator.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 350px;
